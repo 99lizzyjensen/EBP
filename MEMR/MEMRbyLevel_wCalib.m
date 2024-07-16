@@ -75,7 +75,6 @@ res.ind = ind;
 res.nTrials = stim.Averages; 
 
 
-
 % Adjust for small calibration errors that sometimes lead to negative (but
 % close to 0 errors to avoid numerical problems)
 if any(Gbline(:) <= 0) || any(Gmem(:) <= 0)
